@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: b2
-  version: "5.0.0"
+  version: "5.0.1"
 
 package:
   name: backblaze-b2
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/b2-${{ version }}.tar.gz
-  sha256: dd347f15e0a2c8ea32e1bd5e1a49e294d3ab96b8008051c4e60d1f1505128fe9
+  sha256: 5ea42c13562d714726df3ad4d815ee0d2a43bacc06a5bb3b5f2e4de0f2f8d168
 
 build:
   number: 0
